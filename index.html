@@ -4,43 +4,89 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Tembo</title>
+  <title>Hitch</title>
   <link rel="stylesheet" href="./reset.css">
+  <link rel="stylesheet" href="./fonts.css">
   <link rel="stylesheet" href="./styles.css">
-  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
+  <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
+  <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
 </head>
 <body>
-  <section class="index-page">
-    <div class="intro">
-      <h2>Usecases</h2>
-      <p>Articles about situations where people could have used Tembo to save them thousands of pounds.</p>
+  <nav>
+    <ul>
+      <li>
+        <a href="#">What's Hitch?</a>
+      </li>
+      <li>
+        <a href="#">Why Hitch?</a>
+      </li>
+      <li>
+        <a href="#">Sign up</a>
+        <p class="tag-small">new</p>
+      </li>
+    </ul>
+    <a href="#" class="logo">Hitch</a>
+  </nav>
+  <section class="hero grid">
+    <div>
+      <h1>Let your dream day speak for itself</h1>
+      <p class="large">Invite your friends, share your plans and organise your big day with Hitch.</p>
+      <a class="button" href="#">Sign up to Hitch</a>
+      <div class="tag-array">
+        <p class="tag">Save the dates</p>
+        <p class="tag">Invitations</p>
+        <p class="tag">RSVPs</p>
+        <p class="tag">Menu choices</p>
+        <p>+ Much more</p>
+      </div>
     </div>
-    <div class="article-list">
-      <div class="article-mini">
-        <a href="./guarantor.html"><img src="./assets/guarantor_thumbnail.jpg" aria-hidden="true"></a>
-        <h3>A cheaper and less risky alternative to a family guarantor mortgage</h3>
-        <p>Getting onto the property ladder in Britain has become a real challenge in recent years.</p>
-        <a href="./guarantor.html" class="button read">Read</a>
-      </div>
-      <div class="article-mini">
-        <a href="./property_ladder.html"><img src="./assets/ladder_thumbnail.jpg" aria-hidden="true"></a>
-        <h3>How to get on the property ladder and save money with Tembo</h3>
-        <p>Meet Clare who works in marketing and lives in Birmingham.</p>
-        <a href="./property_ladder.html" class="button read">Read</a>
-      </div>
-      <div class="article-mini">
-        <a href="./rio.html"><img src="./assets/rio_thumbnail.jpg" aria-hidden="true"></a>
-        <h3>What is a Retirement Interest Only mortgage?</h3>
-        <p>If someone in your family is owns their own home, it’s likely that it makes up the majority of their overall net worth.</p>
-        <a href="./rio.html" class="button read">Read</a>
-      </div>
-      <div class="article-mini">
-        <a href="./unlock.html"><img src="./assets/unlock_thumbnail.jpg" aria-hidden="true"></a>
-        <h3>How to unlock some value from your home to help your family onto the property ladder</h3>
-        <p>It’s tough watching a loved one struggle with their finances and unable to afford a mortgage.</p>
-        <a href="./unlock.html" class="button read">Read</a>
-      </div>
+    <img src="./assets/img/hero.png">
+  </section>
+  <section class="grid">
+    <img class="normal" src="./assets/img/personalise.png">
+    <div class="narrow">
+      <h2>Make it personal</h2>
+      <p>Use our curated designer templates to create your own customised website to show your guests how you want to celebrate your wedding.</p>
+      <p>Add your wedding venue, reception location</p>
+      <a class="button" href="#">Sign up to Hitch</a>
     </div>
   </section>
-  
+  <section class="grid">
+    <div class="narrow">
+      <h2>Save the dates,  RSVPs & Menu’s</h2>
+      <p>Use Hitch to take care of your save the dates, RSVP’s and even let your guests select their menu choices too.</p>
+      <p>Send unlimited digital invites or customise one of our beautifully designed templates to send direct to your guests door.</p>
+      <a class="button" href="#">Sign up to Hitch</a>
+    </div>
+    <img class="normal end" src="./assets/img/RSVPs.png">
+  </section>
+  <section class="cta">
+    <div class="cta-title">
+      <h2>We want you</h2><p class="tag-small">yes you</p>
+    </div>
+    <p>So we’re not trying to split up your marriage, but we’re looking for our first users to really shape our product, tell us what they think about what we’re building and provide us with ideas of what to include next.</p>
+    <p>If that sounds like you sign up!</p>
+    <form action="https://send.pageclip.co/fdzatY4zjDS625rR2r0kMaLtyaGuD1Sc" class="pageclip-form" method="post">
+      <div class="cta-questions">
+        <div class="cta-question">
+          <label for="name">What’s your name?</label>
+          <input type="text" name="name" placeholder="Name"/>
+        </div>
+        <div class="cta-question">
+          <label for="email">What’s your email address?</label>
+          <input type="email" name="email" placeholder="Email address"/>
+        </div>
+        <div class="cta-question">
+          <label for="date">When’s your big day?</label>
+          <input type="date" name="date" placeholder="DD/MM/YYYY"/>
+        </div>
+      </div>
+      <button type="submit" class="pageclip-form__submit button">
+        <span>Sign up to Hitch</span>
+      </button>
+    </form>
+  </section>
 </body>

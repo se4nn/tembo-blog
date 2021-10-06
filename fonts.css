@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'FT Klon';
+  font-weight: 400;
+  font-display: block;
+  src: url(./assets/fonts/WOFF2/FTKlon-Regular.woff2) format('woff2'), url(./assets/fonts/WOFF/FTKlon-Regular.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'FT Klon';
+  font-weight: 400;
+  font-display: block;
+  font-style: italic;
+  src: url(./assets/fonts/WOFF2/FTKlonItalic-Regular.woff2) format('woff2'), url(./assets/fonts/WOFF/FTKlonItalic-Regular.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'FT Klon';
+  font-weight: 500;
+  font-display: block;
+  src: url(./assets/fonts/WOFF2/FTKlon-Medium.woff2) format('woff2'), url(./assets/fonts/WOFF/FTKlon-Medium.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'FT Klon';
+  font-weight: 500;
+  font-display: block;
+  font-style: italic;
+  src: url(./assets/fonts/WOFF2/FTKlonItalic-Medium.woff2) format('woff2'), url(./assets/fonts/WOFF/FTKlonItalic-Medium.woff) format('woff');
+}
